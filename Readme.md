@@ -19,13 +19,13 @@ Thirstrap Mobile App.
 * HTML, CSS and JS
 
 # Home Screen
-<img src="assets/images/screenshot/onboarding.jpg">  
+<img src="assets/img/screenshot/onboarding.jpg">  
 
 # Sign Up Screen
-<img src="assets/images/screenshot/signup.png">  
+<img src="assets/img/screenshot/signup.png">  
 
 # Sign In Screen
-<img src="assets/images/screenshot/login.png">  
+<img src="assets/img/screenshot/login.png">  
 
 # Tabs Screen
-<img src="assets/images/screenshot/tabs.jpg">  
+<img src="assets/img/screenshot/tabs.jpg">  
