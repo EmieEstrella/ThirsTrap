@@ -45,7 +45,7 @@ export default function registration() {
         </TouchableOpacity>
 
         <Text className="text-sm text-center  text-gray-500 mt-6">
-          Don’t have an account?{' '}
+          Already have an account?{' '}
           <Text className="text-amber-900">Sign in</Text>
         </Text>
 
