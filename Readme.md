@@ -22,10 +22,10 @@ Thirstrap Mobile App.
 <img src="assets/img/screenshot/onboarding.jpg">  
 
 # Sign Up Screen
-<img src="assets/img/screenshot/signup.png">  
+<img src="assets/img/screenshot/signup.jpg">  
 
 # Sign In Screen
-<img src="assets/img/screenshot/login.png">  
+<img src="assets/img/screenshot/login.jpg">  
 
 # Tabs Screen
 <img src="assets/img/screenshot/tabs.jpg">  
