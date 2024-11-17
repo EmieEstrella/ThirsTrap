@@ -20,6 +20,7 @@ export default function App() {
         containerStyles="w-full mt-7">
         </CustomButton>
 
+
         <StatusBar style='light'></StatusBar>
         </View>
 

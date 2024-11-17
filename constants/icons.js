@@ -5,6 +5,8 @@ import search from "../assets/icons/search.png";
 import logo from "../assets/icons/logo.png"
 import menu from "../assets/icons/menu.png"
 import bell from "../assets/icons/bell.png"
+import google from  "../assets/icons/google.png"
+import email from  "../assets/icons/email.png"
 
 export default {
 
@@ -14,5 +16,7 @@ export default {
     search,
     logo,
     menu,
-    bell
+    bell,
+    google,
+    email
 };

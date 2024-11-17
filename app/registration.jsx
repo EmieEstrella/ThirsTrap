@@ -1,17 +1,55 @@
-import { StyleSheet, Text, View } from "react-native";
+import { TouchableOpacity, Image, StyleSheet, Text, View, TextInput } from "react-native";
 import React from "react";
-import { TextInput } from "react-native";
-import { Button } from "react-native";
+import {  } from "react-native";
+import { icons } from './../constants'
+
 
 export default function registration() {
     return (
-        <View className ="flex-1 items-center justify-center text-center p-6">
-        <Text className="text-2xl font-plight font-bold">Sign Up</Text>
-        <TextInput className="text-1xl font-pthin border rounded-lg w-full pl-4 py-3 m-2"placeholder="Username"></TextInput>
-        <TextInput className="text-1xl font-pthin border rounded-lg w-full pl-4 py-3 m-2"placeholder="Email or Phone Number"></TextInput>
-        <TextInput className="text-1xl font-pthin border rounded-lg w-full pl-4 py-3 m-2"placeholder="Password"></TextInput>
-        <TextInput className="text-1xl font-pthin border rounded-lg w-full pl-4 py-3 m-2"placeholder="Confirm Password"></TextInput>
+        <View className="flex-1 bg-white justify-center items-center px-6">
+        {/* Title */}
+        <Text className="text-2xl font-semibold text-center mb-8">Sign up</Text>
+
+        {/* Username Input */}
+        <TextInput
+          placeholder="Username"
+          className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm mb-4"
+        />
+
+        {/* Email Input */}
+        <TextInput
+          placeholder="Email or Phone Number"
+          className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm mb-4"
+        />
+
+        {/* Password Input */}
+        <View className="w-full relative">
+          <TextInput
+            placeholder="Password"
+            secureTextEntry
+            className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm mb-4"
+          />
         </View>
+
+        {/* C-Password Input */}
+        <View className="w-full relative">
+          <TextInput
+            placeholder="Confirm Password"
+            secureTextEntry
+            className="w-full border border-gray-300 rounded-lg px-4 py-3 text-sm mb-8"
+          />
+        </View>
+
+        <TouchableOpacity className="bg-amber-700 rounded-lg  w-full p-6 mb-6">
+          <Text className="text-white text-lg text-center font-semibold">Sign up</Text>
+        </TouchableOpacity>
+
+        <Text className="text-sm text-center  text-gray-500 mt-6">
+          Don’t have an account?{' '}
+          <Text className="text-amber-900">Sign in</Text>
+        </Text>
+
+      </View>
     )
 }
 
